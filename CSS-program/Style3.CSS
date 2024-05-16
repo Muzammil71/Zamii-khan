@@ -1,0 +1,25 @@
+div.ex1{
+    background-color: lightblue;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+div.ex2{
+    background-color: lightblue;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
+div.ex3 {
+    background-color: lightblue;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.ex3:hover {
+    overflow: visible;
+}
