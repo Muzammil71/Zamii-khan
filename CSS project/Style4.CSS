@@ -1,0 +1,8 @@
+ol.c {
+    list-style-type: lower-roman;
+  }
+  ul.a {
+    list-style-image: url(Bullets.jpg);
+    max-width: 100%;
+height: auto;
+  }
