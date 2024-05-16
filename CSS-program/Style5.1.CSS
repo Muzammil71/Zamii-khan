@@ -1,6 +1,6 @@
-body {
+div {
     background-color: darkgoldenrod;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    }
+    height: 30vh;
+    width: 100%;
+    overflow: scroll;
+}
