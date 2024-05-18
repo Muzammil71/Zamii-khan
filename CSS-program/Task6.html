@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+    .flex-container {
+        display: flex;
+        background-color: gray;
+        padding: 5%;
+        text-align: center;
+    }
+    .s1 {
+        background: palevioletred;
+        border: 6px solid gray;
+    }
+    .s2 {
+        background-color: goldenrod;
+    }
+    .s21
+    {
+        height: 50%;
+        border-top: 6px solid gray;
+        border-left: 6px solid gray;
+        border-right: 6px solid gray;
+    }
+    .s3
+    {
+        background: wheat;
+        height: 50%;
+        border: 6px solid gray;
+    }
+    body {
+        p {
+            font-size: 30px;
+            margin: auto;
+            text-align: center;
+        }
+    }
+    .s31
+    {
+        width: 50%;
+        border: 6px solid gray;
+    }
+    .s4
+    {
+        background: aqua;
+        width: 50%;
+        border: 6px solid gray;
+    }
+    .s4a
+    {
+        height: 50%;
+        background: maroon;
+    }
+    .s4b
+    {
+        height: 50%;
+        background: blueviolet;
+    }
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .container21 {
+        width: 100px;
+        height: 50px;
+        background: red;
+    }
+    .container22 {
+        width: 100px;
+        height: 50px;
+        background: yellow;
+    }
+    .container3 {
+        display: flex;
+        justify-content: center;
+    }
+    .container31 {
+        width: 100px;
+        background: darkmagenta;
+    }
+    .container32 {
+        width: 100px;
+        background: cyan;
+    }
+    .container4 {
+        display: flex;
+        justify-content: start;
+    }
+    .container4a {
+        width: 100px;
+        background: darkmagenta;
+    }
+    .container4b {
+        width: 100px;
+        background: cyan;
+    }
+    .container5 {
+        display: flex;
+        justify-content: end;
+    }
+    .container51 {
+        width: 100px;
+        background: darkmagenta;
+    }
+    .container52 {
+        width: 100px;
+        background: cyan;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="s1" style="width:100%">
+                <p>1</p>
+        </div>
+        <div class="s2" style="width:100%">
+            <div class="s21">
+                <p>2</p>
+            </div>
+            <div class="s3" style="display: flex;">
+                <div class="s31">
+                    <p>3</p>
+                </div>
+                <div class="s4">
+                    <div class="s4a">
+                        <p>4a</p>
+                    </div>
+                    <div class="s4b">
+                        <p>4b</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container2">
+            <div class="container21">
+                <p>s</p>
+            </div>
+            <div class="container22">
+                <p>s</p>
+            </div>
+            <div>
+                <div class="container3">
+                    <p>s</p>
+                </div>
+                <div class="container32">
+                    <p>s</p>
+                </div>
+                <div class="container4">
+                    <div class="container4a">
+                        <p>s</p>
+                    </div>
+                    <div class="container4b">
+                        <p>s</p>
+                    </div>
+                    <div class="container5">
+                        <div class="container51">
+                            <p>s</p>
+                        </div>
+                        <div class="container52">
+                            <p>s</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
