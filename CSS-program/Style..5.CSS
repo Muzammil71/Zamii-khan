@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+div {
+    background-image: url(RR.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    background-size: cover;
+    overflow: scroll;
+=======
+div {
+    background-image: url(RR.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    background-size: cover;
+    overflow: scroll;
+>>>>>>> bd02a055818ce58367e0f31c742d751209eace30
+}
