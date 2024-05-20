@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 438px);
+    background-color: black;
+    gap: 8px;
+    padding: 6px;
+    padding: vertical 10px;
+    height: 200px;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.item-set1 {
+    background-color: crimson;
+    grid-row: 1;
+}
+.item-set2 {
+    background-color: blueviolet;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+.item-set3 {
+    background-color: goldenrod;
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
