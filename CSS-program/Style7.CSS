@@ -1,0 +1,83 @@
+nav {
+    background-color: darkgoldenrod;
+    position: fixed;
+    border-radius: 30px;
+    width: 95%;
+    margin: auto;
+}
+.topl{
+    display: flex;
+    li {
+        display: inline;
+        padding-right: 20px;
+    }
+}
+.home {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    padding-top: 50px;
+}
+.homeh {
+    font-size: 50px;
+}
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.home2 {
+    background-image: url(./images/Newimage.png);
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.abback {
+    background-image: url(./images/background.jpg);
+    width: 50%;
+    height: 400px;
+}
+.about {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+h2 {
+    font-size: 35px;
+}
+p {
+    font-size: 18px;
+}
+.gallery {
+    text-align: left;
+    padding-top: 80px;
+    img{
+        height: 300px;
+        border: 4px solid darkblue;
+        margin: 5px;
+    }
+}
+.images {
+    display: flex;
+}
+.services {
+    text-align: left;
+    padding-top: 80px;
+    ul{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        li{
+            padding: 100px;
+            border: 2px solid black;
+            list-style: none;
+        }
+    }
+}
+.contact{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+.con2 {
+    padding-left: 50px;
+}

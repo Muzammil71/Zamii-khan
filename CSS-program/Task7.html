@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <link rel="stylesheet" href="web.css">
+    <style>
+    nav {
+        background-color: darkgoldenrod;
+        position: fixed;
+        border-radius: 30px;
+        width: 95%;
+        margin: auto;
+    }
+    .topl{
+        display: flex;
+        li {
+            display: inline;
+            padding-right: 20px;
+        }
+    }
+    .home {
+        display: flex;
+        height: 300px;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .homeh {
+        font-size: 50px;
+    }
+    body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .home2 {
+        background-image: url(./images/Newimage.png);
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
+    .abback {
+        background-image: url(./images/background.jpg);
+        width: 50%;
+        height: 400px;
+    }
+    .about {
+        display: flex;
+        padding-top: 50px;
+        align-items: center;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .gallery {
+        text-align: left;
+        padding-top: 80px;
+        img{
+            height: 300px;
+            border: 4px solid darkblue;
+            margin: 5px;
+        }
+    }
+    .images {
+        display: flex;
+    }
+    .services {
+        text-align: left;
+        padding-top: 80px;
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            li{
+                padding: 100px;
+                border: 2px solid black;
+                list-style: none;
+            }
+        }
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        padding-top: 80px;
+    }
+    .con2 {
+        padding-left: 50px;
+    }
+    </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="topl">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home" class="home">
+                <div style="width: 50%;">
+                    <h1 class="homeh">Welcome to my Website...!</h1>
+                    <p>This is a website.</p>
+                </div>
+                <div class="home2"></div>
+            </section>
+            <section id="about" class="about">
+                <div style="width: 50%; padding-right: 20px;">
+                    <h2>About us:</h2>
+                    <p>A webpage is a document written in HTML and can be viewed on any web browser. It is contained within the web server, which can be accessed by entering the URL for that web page, and once it is loaded, it appears on the user's web browser. Each webpage is linked with a unique URL; hence two pages cannot have the same URL.</p>
+                </div>
+                <div class="abback"></div>
+            </section>
+            <section id="gallery" class="gallery">
+                <h2>Gallery:</h2>
+                <div class="images">
+                    <img src="./images/Newimage.png" alt="1" style="width: 50%;">
+                    <img src="./images/Women T Shirt.png" alt="2" style="width: 48%; padding-left: 10px;">
+                </div>
+            </section>
+            <section id="services" class="services">
+                <h2>Services:</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <div class="con1">
+            </div>
+            <div class="con2">
+                <h2>Contact us:</h2>
+                <p>Feel free to contact us using the information below:</p>
+                <ul>
+                    <li><a href="mailto:zamiikhan704@gmail.com">Email: example@email.com</a></li>
+                    <li><a href="tel:+923120550316">Phone: +923120550316</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
