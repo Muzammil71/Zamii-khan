@@ -1,0 +1,21 @@
+.statement1 {
+    border: solid;
+    height: 12;
+    margin: 5px;
+    padding: 8px;
+    background-color: blueviolet;
+}
+.statement2 {
+    border: solid;
+    height: 10px;
+    margin: 3px;
+    padding: 4px;
+    background-color: blue;
+}
+.statement3 {
+    border: solid;
+    height: 14px;
+    margin: 7px;
+    padding: 12px;
+    background-color: brown;
+}
