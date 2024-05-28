@@ -1,0 +1,15 @@
+.Form2 {
+    text-align: center;
+}
+.Form2 input:nth-child(2) {
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+.Form2 input:nth-child(5) {
+    margin-left: 7.9vw;
+    margin-top: 2vh;
+}
+.Form2 input:nth-child(8) {
+    margin-left: 6.9vw;
+    margin-top: 2vh;
+}
