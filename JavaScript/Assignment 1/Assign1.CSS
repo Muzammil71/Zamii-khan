@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    color: black;
+}
+body p,div {
+    text-align: center;
+}
+.myForm {
+    text-align: center;
+}
+body button {
+    margin-top: 3vh;
+    color: goldenrod;
+}
+.myForm1 {
+    text-align: center;
+}
+.myForm1 input:nth-child(2) {
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+.myForm1 input:nth-child(5) {
+    margin-left: 7.9vw;
+    margin-top: 2vh;
+}
+.myForm1 input:nth-child(8) {
+    margin-left: 6.9vw;
+    margin-top: 2vh;
+}
